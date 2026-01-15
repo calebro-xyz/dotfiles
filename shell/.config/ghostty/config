@@ -1,0 +1,15 @@
+# Ghostty Configuration
+theme = Gruvbox Dark
+font-family = Monaspace Argon NF
+font-size = 14
+window-padding-x = 6
+window-padding-y = 8
+cursor-style = bar
+shell-integration-features = no-cursor
+auto-update-channel =  stable
+auto-update = download
+desktop-notifications = true
+gtk-wide-tabs = true
+gtk-titlebar-style = tabs
+cursor-color = #689D6A
+title = Terminal
