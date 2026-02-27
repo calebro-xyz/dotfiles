@@ -14,7 +14,16 @@
     }
   },
 
+  "mcpServers": {
+    "resend": {
+      "type": "command",
+      "command": "npx -y resend-mcp",
+      "env": {
+        "RESEND_API_KEY": "re_xxxxxxxxx"
+      }
+    }
+  },
+
   "model": "anthropic/claude-sonnet-4-5",
-  "autoupdate": true,
-  "theme": "gruvbox"
+  "autoupdate": true
 }
